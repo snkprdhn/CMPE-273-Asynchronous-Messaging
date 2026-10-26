@@ -1,6 +1,6 @@
 # RabbitMQ Order Queue
 
-A small Python example with one order producer and multiple competing workers. Workers use manual acknowledgements, so RabbitMQ can redeliver an order if a worker disconnects before sending its ACK.
+A asynchronous messaging system using RabbitMQ and Python with one order producer and multiple competing workers. Workers use manual acknowledgements, so RabbitMQ can redeliver an order if a worker disconnects before sending its ACK.
 
 ## Architecture
 
